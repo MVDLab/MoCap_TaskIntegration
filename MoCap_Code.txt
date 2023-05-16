@@ -1,0 +1,19 @@
+Option 1
+	Outerloop - 
+	QCM 
+		Read the force data
+		Calculate CoP
+		Send CoP to some function that implements your Screen task
+	keep looping till capture stops
+
+
+Option 2
+	Outerloop-
+	Screen task
+		Call function to give you CoP
+	keep looping till capture stops/something else
+
+
+Frame rate = # of frames/time taken
+
+time taken = time taken in us/1000000
