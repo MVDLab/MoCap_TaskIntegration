@@ -9,7 +9,7 @@ Code as of 05-16-2023 needs to be edited to include an external trigger, pull sa
 Modified CTSIB (m-CTSIB) task is incomplete; Limits of Stability (LoS) has not been written but sway angle calculations are included in [Calculations.pdf]. 
 
 SETUP:
-  7 AMTI force plates embedded into ground (analog signal already converted to digital and paired with Qualisys Track Manager (QTM) and able to be streamed directly from QTM
+  7 AMTI force plates embedded into ground (analog signal already converted to digital and paired with Qualisys Track Manager (QTM) and able to be streamed directly from QTM)
   18-camera Qualisys motion capture system (QTM)
   PupilLabs glasses (code does not yet exist) (PupilCapture)
   
