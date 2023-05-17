@@ -9,9 +9,9 @@ Code as of 05-16-2023 needs to be edited to include an external trigger, pull sa
 Modified CTSIB (m-CTSIB) task is incomplete; Limits of Stability (LoS) has not been written but sway angle calculations are included in [Calculations.pdf]. 
 
 SETUP:
-  7 AMTI force plates embedded into ground (analog signal already converted to digital and paired with Qualisys Track Manager (QTM) and able to be streamed directly from QTM)
-  18-camera Qualisys motion capture system (QTM)
-  PupilLabs glasses (code does not yet exist) (PupilCapture)
+  7 AMTI force plates embedded into ground (analog signal already converted to digital and paired with Qualisys Track Manager (QTM) and able to be streamed directly from QTM),
+  18-camera Qualisys motion capture system (QTM),
+  PupilLabs glasses (code does not yet exist) (PupilCapture).
   
 DESCRIPTION:
   Participant stands on force plate. Force data read in real-time from Qualisys to MATLAB (Psychtoolbox (PTB)). If CoP Acceleration (CoPAccel) is over a certain threshold, do nothing. If under threshold, trigger change in PTB stimulus display - Lean, Weight-Shift, Step, m-CTSIB, LoS. 
